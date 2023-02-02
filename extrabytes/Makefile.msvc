@@ -1,4 +1,0 @@
-all:
-	cl extract.cpp
-	cl /Os /O2 /GS- /Gy messagebox.cpp
-	extract messagebox.exe .text messagebox.bin
